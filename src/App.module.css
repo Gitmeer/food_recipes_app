@@ -1,0 +1,10 @@
+.App{
+    display: flex;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.App >h1{
+    margin-left:500px ;
+}

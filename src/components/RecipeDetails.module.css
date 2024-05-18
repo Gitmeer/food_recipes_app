@@ -1,0 +1,22 @@
+.main{
+    width:70%;
+}
+.img {
+    width: 500px; /* Set the width */
+    height: 400px; /* Set the height */
+    transition: 0.2s ease-in-out, transform 0.2s ease-in-out;
+    margin-left: 20px;
+  }
+.contentSection{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.detailsSection{
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    margin-left: 30px;
+}
